@@ -38,19 +38,39 @@
 
 .promo-button {
 	display: table;
-	margin: 0 auto;
+	margin: 0 540px;
 }
+
+/*.promo-button {
+	width: 228px;
+	height: 57px;
+	display: inline-block;
+	background-color: black;
+	margin: 0 15px;
+}
+
+.promo-button p {
+	color: white;
+	font-family: "Lato", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+}*/
 
 .promo-button a {
 	display: inline-block;
-	margin: 33px 15px 0 15px;
-	padding: 23px 52px;
-	background: black;
+	margin: 34px 15px 0 15px;
+	padding: 18px 52px;
+	background: rgba(0, 0, 0, 0.5);
 	color: white;
 	font-family: "Lato", sans-serif;;
 	font-size: 18px;
 	font-weight: 400;
 	text-align: center;
+}
+
+.promo-button a:hover {
+	background: rgba(255, 255, 255, 0.5);
 }
 
 /*.promo-background {
