@@ -6,7 +6,7 @@
 }
 
 .header {
-	width: 100%;
+	width: 1600px;
 	height: 159px;
 	display: block;
 	position: absolute;
@@ -24,15 +24,30 @@
 	height: 100%;
 	float: right;
 	display: table;
-	padding: 0 31px 0 0;
+	padding-right: 40px;
+	/*padding: 0 31px 0 0;*/
 }
 
 .social_icons i {
 	float: left;
 	display: table;
-	color: #dad33e;
-	font-size: 18px;
-	padding: 52px 8px 0 8px;
+	color: #dab33e;
+	font-size: 21px;
+	margin-top: 50px;
+	/*margin-left: 16px;*/
+	/*padding: 52px 8px 0 8px;*/
+}
+
+.fa-twitter {
+	margin-left: 8px;
+}
+
+.fa-youtube {
+	margin-left: 18px;
+}
+
+.fa-facebook-f {
+	margin-left: 13px;
 }
 
 .navigation {
@@ -50,23 +65,52 @@
 	height: 100%;
 	display: table;
 	float: left;
-	padding: 0 25px;
-	margin: 3px 0 0 0;
+	margin-top: 3px;
 }
 
 .menu a li {
-	height: 100%;
+	height: 73px;
 	display: table;
 	color: white;
 	font-size: 22px;
-	font-weight: 400;
-	font-family: "Gentium Book Basic";
-	padding: 46px 0 0 0;
+	font-weight: 500;
+	font-family: "Gentium Book Basic", serif;
+	padding: 45px 0 0 0;
 }
 
 .menu a:hover {
-	margin: 0px;
+	margin-top: 0;
 	border-top: 3px solid white;
+}
+
+.nav-home {
+	padding: 0 13px;
+	margin: 0 25px;
+}
+
+.nav-about {
+	padding: 0 13px;
+	margin: 0 0;
+}
+
+.nav-igredients {
+	padding: 0 13px;
+	margin: 0 26px;
+}
+
+.nav-menu {
+	padding: 0 13px;
+	margin: 0 0;
+}
+
+.nav-reviews {
+	padding: 0 13px;
+	margin: 0 26px;
+}
+
+.nav-reservations {
+	padding: 0 13px;
+	margin: 0 0;
 }
 
 .logo {
