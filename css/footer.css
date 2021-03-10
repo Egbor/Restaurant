@@ -1,0 +1,77 @@
+footer {
+    width: 1600px;
+    height: 320px;
+    background-color: #191919;
+    color: #fefefe;
+}
+
+.footer-content {
+    width: 1170px;
+    height: 218px;
+    padding: 52px 215px 50px 215px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.column {
+    width: 320px;
+    height: 196px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.column h6 {
+    /*width: 170px;*/
+    /*height: 41px;*/
+    font-size: 21px;
+    line-height: 24px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+
+.column p {
+    /*width: 370px;*/
+    /*height: 136px;*/
+    font-size: 14px;
+    /*line-height: 24px;*/
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.column p b {
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.column-content {
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.column img {
+    width: 170px;
+    height: 18px;
+    display: block;
+    margin: auto;
+}
+
+.footer-icons i {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.my-bold-font {
+    color: black;
+    font-weight: bold;
+}

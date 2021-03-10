@@ -1,0 +1,14 @@
+.Reviews {
+    width: 1600px;
+    height: 758px;
+    background: url("../content/images/block_5/bg.png");
+}
+
+.review-content {
+    /*width: 770px;*/
+    /*height: 557px;*/
+   background: url("../content/images/block_5/second-bg.png");
+    opacity: 0.8;
+    /*margin: 100px 416px 101px 416px;*/
+    border: #191919;
+}

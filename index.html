@@ -1,65 +1,205 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!--Icons includes-->
-	<script src="https://kit.fontawesome.com/1a2ef1c94e.js" crossorigin="anonymous"></script>
-	<!--Fonts includes-->
-	<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-	<!--Styles includes-->
-	<link rel="stylesheet" type="text/css" href="css/header.css">
-	<link rel="stylesheet" type="text/css" href="css/content.css">
-	<title>Lambda</title>
+    <meta charset="utf-8"/>
+
+    <!--Icons includes-->
+    <script src="https://kit.fontawesome.com/1a2ef1c94e.js" crossorigin="anonymous"></script>
+    <!--Fonts includes-->
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!--Styles includes-->
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/content.css">
+    <link rel="stylesheet" type="text/css" href="css/review.css">
+    <link rel="stylesheet" type="text/css" href="css/block_6.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+    <title>Lambda</title>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+        function checkParams() {
+            var name = $('#name').val();
+            var email = $('#email').val();
+            var phone = $('#phone').val();
+
+            if (name.length != 0 && email.length != 0 && phone.length != 0) {
+                $('#submit').removeAttr('disabled');
+            } else {
+                $('#submit').attr('disabled', 'disabled');
+            }
+        }
+    </script>
+
+
 </head>
+
+
 <!--Temporary background should be removed.-->
 <body style="background-color:#67c179;">
-	<div class="header">
-		<div class="inner_header">
-			<div class="social_icons">
-				<i class="fab fa-twitter"></i>
-				<i class="fab fa-youtube"></i>
-				<i class="fab fa-facebook-f"></i>
-			</div>
-			<div class="navigation">
-				<ul class = "menu">
-					<a><li>Home</li></a>
-					<a><li>About</li></a>
-					<a><li>Igredients</li></a>
-					<a><li>Menu</li></a>
-					<a><li>Reviews</li></a>
-					<a><li>Reservations</li></a>
-				</ul>
-			</div>
-			<div class="logo">
-				<h1><a>LAMBDA</a></h1>
-			</div>
-		</div>
-	</div>
-	<div class="content">
-		<div class="promo">
-			<h1>the right ingredients for the right food</h1>
-			<img src="content/images/pattern-mask-promo.svg">
-			<div class="promo-button">
-				<a href="#">BOOK A TABLE</a>
-				<a href="#">SEE THE MENU</a>
-			</div>
-<!--			<img  class="promo-background" src="content/images/backgrounds/promo.png">
-			<div class="promo-content">
-				<h1>the right ingredients for the right food</h1>
-			</div>-->
-		</div>
-		</div>
-		<div class="about">
-		</div>
-		<div class="Igredients">
-		</div>
-		<div class="Menu">
-		</div>
-		<div class="Reviews">
-		</div>
-		<div class="Reservations">
-		</div>
-	</div>
+<div class="header">
+    <div class="inner_header">
+        <div class="social_icons">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-facebook-f"></i>
+        </div>
+        <div class="navigation">
+            <ul class="menu">
+                <a>
+                    <li>Home</li>
+                </a>
+                <a>
+                    <li>About</li>
+                </a>
+                <a>
+                    <li>Igredients</li>
+                </a>
+                <a>
+                    <li>Menu</li>
+                </a>
+                <a>
+                    <li>Reviews</li>
+                </a>
+                <a>
+                    <li>Reservations</li>
+                </a>
+            </ul>
+        </div>
+        <div class="logo">
+            <h1><a>LAMBDA</a></h1>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="promo">
+        <h1>the right ingredients for the right food</h1>
+        <img src="content/images/pattern-mask-promo.svg">
+        <div class="promo-button">
+            <a href="#">BOOK A TABLE</a>
+            <a href="#">SEE THE MENU</a>
+        </div>
+        <!--			<img  class="promo-background" src="content/images/backgrounds/promo.png">
+                    <div class="promo-content">
+                        <h1>the right ingredients for the right food</h1>
+                    </div>-->
+    </div>
+</div>
+<div class="about">
+</div>
+<div class="Igredients">
+</div>
+<div class="Menu">
+</div>
+
+<div class="Reviews">
+    <div class="review-content">
+
+    </div>
+</div>
+
+<div class="block_6">
+    <div class="block_6_content">
+        <div class="images">
+            <div><img src="content/images/block_6/6_1.png" alt="LOL"></div>
+            <div><img src="content/images/block_6/6_2.png" alt="LOL"></div>
+        </div>
+
+        <div class="main_content">
+            <h1 class="block_6_header">Just the right food</h1>
+            <img src="content/images/pattern-mask-promo.svg">
+
+
+            <p>If you've been to one of our restaurants, you've seen - and<br>
+                tasted - what keeps our customers coming back for more.<br>
+                Perfect materials and freshly baked food.<br>
+            </p>
+
+            <p>Delicious Lambda cakes, muffins, and gourmet coffees make<br>
+                us hard to resist! Stop in today and check us out! Perfect<br>
+                materials and freshly baked food.<br>
+            </p>
+
+<!--            TODO-->
+            <form method="post" action="" id="forma" name="">
+                <div class="left_input">
+                    <div>
+                        <h6>Name</h6>
+                        <input id="name" onkeyup="checkParams()" type="text" size="5" placeholder="your name*"
+                               autocomplete="off"/><br>
+                        <h6>Date</h6>
+                        <input id="email" onkeyup="checkParams()" type="email" placeholder="date*"
+                               autocomplete="off"/><br>
+                    </div>
+                    <div class="right_input">
+                        <h6>Email</h6>
+                        <input class="right_input" id="phone" onkeyup="checkParams()" type="tel"
+                               placeholder="your email*" autocomplete="off"/><br>
+                        <h6>Party number</h6>
+                        <input class="right_input" id="t" onkeyup="checkParams()" type="tel" placeholder="party number*"
+                               autocomplete="off"/><br>
+                    </div>
+
+                </div>
+                <input type="button" onkeyup="checkParams()" id="submit" value="Отправить" disabled>
+            </form>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+<footer>
+    <div class="footer-content">
+        <div class="column">
+            <h6>About Us</h6>
+            <img src="content/images/pattern-mask-promo.svg">
+            <p>Lambda's new and expanded Chelsea location<br>
+                represents truly authentic <span style="font-weight:bold">Greek</span> patisserie,<br>
+                featuring breakfast of fresh croissants and<br>
+                steaming bowls of café<br>
+                Lambda the best restaurant in town
+            </p>
+        </div>
+        <div class="column">
+            <div class="column-content">
+                <h6>Opening Hours</h6>
+                <img src="content/images/pattern-mask-promo.svg">
+                <p><b>Mon-Thu:</b> 7:00am-8:00pm<br>
+                    <b>Fri-Sun:</b> 7:00am-10:00pm
+                </p>
+            </div>
+            <div class="footer-icons">
+                <i class="fa fa-cc-amex" aria-hidden="true"></i>
+                <i class="fa fa-cc-paypal" aria-hidden="true"></i>
+                <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                <i class="fa fa-cc-discover" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="column">
+            <div class="column-content">
+                <h6>Our Location</h6>
+                <img src="content/images/pattern-mask-promo.svg">
+                <p><b>19th Paradise Street Sitia<br>
+                    128 Meserole Avenue
+                </b>
+                </p>
+            </div>
+            <div class="footer-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fa fa-youtube-square" aria-hidden="true"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fa fa-trello" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

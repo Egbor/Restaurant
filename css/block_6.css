@@ -1,0 +1,135 @@
+
+.block_6 {
+    width: 1600px;
+    height: 710px;
+    background-image: url("../content/images/block_6/bgco.svg");
+}
+
+.block_6_content {
+    width: 1170px;
+    height: 508px;
+    padding: 99px 215px 103px 215px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.images {
+    width: 570px;
+    height: 508px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.images img {
+    width: 270px;
+    height: 508px;
+}
+
+.main_content {
+    width: 570px;
+    height: 508px;
+    display: table;
+    float: right;
+}
+
+.main_content img {
+    color: black;
+    margin: 10px 170px 19px 170px;
+    width: 230px;
+    height: 30px;
+}
+
+.main_content h1 {
+    padding: 0 100px 0 100px;
+    color: #c2a100;
+    font-size: 32px;
+    font-family: "Yeseva One", sans-serif;
+    text-align: center;
+}
+
+.main_content h6 {
+    ont-family: "Yeseva One", sans-serif;
+    text-align: left;
+    color: #c2a100;
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.main_content p {
+    /*width: 432px;*/
+    /*height: 171px;*/
+    font-size: 14px;
+    line-height: 24px;
+    color: #4c4c4c;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    display: block;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+
+input {
+    width: 184px;
+    height: 36px;
+    font-style: italic;
+}
+
+input[type=button] {
+    font-style: normal;
+    text-align: center;
+    /*padding-bottom: 0;*/
+    margin-top: 24px;
+    margin-left: 186px;
+    background-color: #696666;
+}
+
+input[type=button]:active {
+    font-style: normal;
+    text-align: center;
+    margin-top: 24px;
+    margin-left: 186px;
+    background-color: #c2a100;
+}
+
+.left_input {
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    justify-content: space-between;
+    width: 430px;
+    height: 170px;
+    display: flex;
+}
+
+
+/*input[type=text]{*/
+/*    width: 20px;*/
+/*    height: 36px;*/
+/*}*/
+
+/*.header h6{*/
+/*    padding: 0 30px 0 30px;*/
+/*    color: #c2a100;*/
+/*    font-size: 30px;*/
+/*    font-family: "Yeseva One", sans-serif;*/
+/*}*/
+
+
+/*.main_content {*/
+/*    display: inline;*/
+/*    width: 200px;*/
+/*    margin-left: 20px;*/
+/*    line-height: 300px;*/
+/*    vertical-align: middle;*/
+/*}*/
+
+/*.block_6_content p {*/
+/*    display: inline-block;*/
+/*    margin-left: 8px;*/
+/*}*/
