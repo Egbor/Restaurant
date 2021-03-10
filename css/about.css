@@ -1,7 +1,8 @@
 .about {
 	width: 100%;
 	height: 710px;
-	background-image: url("../content/images/backgrounds/About-Reservations.svg");
+	background-image: url(../content/images/backgrounds/About-Reservations.svg), linear-gradient(-43deg, #d0d0d0a8 0%, #ffffff 100%)
+	/*background-image: linear-gradient(-43deg, #010101 0%, #ffffff 100%);*/
 }
 
 .about-content {
@@ -9,13 +10,15 @@
 	height: 100%;
 	display: table;
 	margin: 0 auto;
+	position: relative;
 }
 
 .about-text {
-	width: 409px;
+	width: 410px;
 	/*height: 510px;*/
-	display: table;
+	display: inline-block;
 	margin: 100px 27px;
+	position: relative;
 }
 
 .about-text h1 {
@@ -36,7 +39,23 @@
 	margin-top: 25px;
 }
 
+.about-text p span {
+	word-spacing: 2px;
+}
+
 .about-pattern {
 	display: table;
 	margin: 15px auto;
+}
+
+.about-cook {
+	position: absolute;
+	top: 276px;
+	left: 131px;
+}
+
+.about-dish {
+	position: absolute;
+	top: 55px;
+	left: 472px;
 }
