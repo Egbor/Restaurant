@@ -4,7 +4,6 @@
     <meta charset="utf-8"/>
 
     <!--Icons includes-->
-    <!--<script src="https://kit.fontawesome.com/1a2ef1c94e.js" crossorigin="anonymous"></script>-->
     <script src="https://use.fontawesome.com/6d004841d1.js"></script>
     <!--Fonts includes-->
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
@@ -15,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="css/promo.css">
     <link rel="stylesheet" type="text/css" href="css/about.css">
     <link rel="stylesheet" type="text/css" href="css/igredients.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
     <link rel="stylesheet" type="text/css" href="css/review.css">
     <link rel="stylesheet" type="text/css" href="css/block_6.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
@@ -51,7 +51,7 @@
             <i class="fa fa-facebook-f"></i>
         </div>
         <div class="navigation">
-            <ul class="menu">
+            <ul class="nav-menubar">
                 <a class="nav-home" href="#"><li>Home</li></a>
                 <a class="nav-about" href="#"><li>About</li></a>
                 <a class="nav-igredients" href="#"><li>Igredients</li></a>
@@ -107,14 +107,25 @@
     		</div>
 		</div>
 	</div>
-	<div class="Menu">
+	<div class="menu">
 	</div>
-</div>
-
-<div class="Reviews">
-    <div class="review-content">
-
-    </div>
+	<div class="reviews">
+    	<div class="reviews-content">
+    		<div class="reviews-header">
+    			<h1>Guest Reviews</h1>
+    			<img class="reviews-pattern" src="content/images/pattern-mask-white.svg">
+    		</div>
+    		<div class="reviews-text">
+    			<p class="reviews-quote">“</p>
+    			<p class="reviews-quoter">If you've been to one of our restaurants. you've seen &#8211; and
+    			tasted &#8211; what keeps our customers coming back for more.
+    			Perfect materials and freshly baked food, delicious Lambda
+    			<span>cakes, muffins,</span> and gourmet coffees make us hard to resist!
+    			Stop in today and check us out!
+    			- food inc, New York</p>
+    		</div>
+    	</div>
+	</div>
 </div>
 
 <div class="block_6">
@@ -147,7 +158,7 @@
                         <input id="name" onkeyup="checkParams()" type="text" size="5" placeholder="your name*"
                                autocomplete="off"/><br>
                         <h6>Date</h6>
-                        <input id="email" onkeyup="checkParams()" type="email" placeholder="date*"
+                        <input id="email" onkeyup="checkParams()" type="date" placeholder="date*"
                                autocomplete="off"/><br>
                     </div>
                     <div class="right_input">
@@ -155,7 +166,7 @@
                         <input class="right_input" id="phone" onkeyup="checkParams()" type="tel"
                                placeholder="your email*" autocomplete="off"/><br>
                         <h6>Party number</h6>
-                        <input class="right_input" id="t" onkeyup="checkParams()" type="tel" placeholder="party number*"
+                        <input class="right_input" id="t" onkeyup="checkParams()" type="number" placeholder="party number*"
                                autocomplete="off"/><br>
                     </div>
 

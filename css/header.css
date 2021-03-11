@@ -56,19 +56,19 @@
 	display: table;
 }
 
-.menu {
+.nav-menubar {
 	float: right;
 	height: 100%;
 }
 
-.menu a {
+.nav-menubar a {
 	height: 100%;
 	display: table;
 	float: left;
 	margin-top: 3px;
 }
 
-.menu a li {
+.nav-menubar a li {
 	height: 73px;
 	display: table;
 	color: white;
@@ -78,7 +78,7 @@
 	padding: 45px 0 0 0;
 }
 
-.menu a:hover {
+.nav-menubar a:hover {
 	margin-top: 0;
 	border-top: 3px solid white;
 }
