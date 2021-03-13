@@ -1,135 +1,124 @@
 
-.block_6 {
+.reservation {
     width: 1600px;
     height: 710px;
-    background-image: url("../content/images/block_6/bgco.svg");
+    background-image: url("../content/images/block_6/bgco.svg"), linear-gradient(-43deg, #d0d0d0a8 0%, #ffffff 100%);
 }
 
-.block_6_content {
+.reservation-content {
     width: 1170px;
     height: 508px;
-    padding: 99px 215px 103px 215px;
+    padding: 96px 215px 103px 215px;
 
     display: flex;
     justify-content: space-between;
 }
 
-.images {
+.reservation-images {
     width: 570px;
     height: 508px;
 
     display: flex;
+    padding-top: 3px; 
     justify-content: space-between;
 }
 
-.images img {
+.reservation-images img {
     width: 270px;
     height: 508px;
 }
 
-.main_content {
+.reservation-main-content {
     width: 570px;
     height: 508px;
     display: table;
     float: right;
 }
 
-.main_content img {
+.reservation-main-content img {
     color: black;
-    margin: 10px 170px 19px 170px;
-    width: 230px;
-    height: 30px;
+    display: table;
+    margin: 14px auto 0 auto;
+    width: 242px;
+    height: 25px;
 }
 
-.main_content h1 {
-    padding: 0 100px 0 100px;
-    color: #c2a100;
-    font-size: 32px;
+.reservation-main-content h1 {
+    padding: 0 100px 0px 100px;
+    color: #cc9900;
+    font-size: 36px;
     font-family: "Yeseva One", sans-serif;
+    font-weight: 400;
     text-align: center;
 }
 
-.main_content h6 {
-    ont-family: "Yeseva One", sans-serif;
+.reservation-main-content h6 {
+    font-family: "Yeseva One", sans-serif;
     text-align: left;
     color: #c2a100;
     font-size: 12px;
     padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 23px;
     font-weight: bold;
 }
 
-.main_content p {
+.reservation-main-content p {
     /*width: 432px;*/
     /*height: 171px;*/
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #4c4c4c;
     font-weight: 400;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato";
     text-align: center;
     display: block;
     margin-left: auto ;
     margin-right: auto ;
 }
 
+.reservation-text-top {
+    margin-top: 25px;
+}
+
+.reservation-text-bottom {
+    margin-top: 10px;
+}
+
+.reservation-text-bottom span {
+    word-spacing: 0;
+}
+
+.reservation-button {
+    width: 200px;
+    height: 36px;
+    color: white;
+}
 
 input {
-    width: 184px;
-    height: 36px;
+    width: 196px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 400;
     font-style: italic;
 }
 
 input[type=button] {
     font-style: normal;
     text-align: center;
-    /*padding-bottom: 0;*/
     margin-top: 24px;
     margin-left: 186px;
-    background-color: #696666;
+    background-color: rgba(200,159,45,0.9803921568627451);
+    border: 1px solid #c89f2d;
 }
 
 input[type=button]:active {
-    font-style: normal;
-    text-align: center;
-    margin-top: 24px;
-    margin-left: 186px;
-    background-color: #c2a100;
+    border: 1px solid #c89f2d;
 }
 
 .left_input {
-    padding-top: 20px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding: 16px 70px 6px 70px;
     justify-content: space-between;
     width: 430px;
     height: 170px;
     display: flex;
 }
-
-
-/*input[type=text]{*/
-/*    width: 20px;*/
-/*    height: 36px;*/
-/*}*/
-
-/*.header h6{*/
-/*    padding: 0 30px 0 30px;*/
-/*    color: #c2a100;*/
-/*    font-size: 30px;*/
-/*    font-family: "Yeseva One", sans-serif;*/
-/*}*/
-
-
-/*.main_content {*/
-/*    display: inline;*/
-/*    width: 200px;*/
-/*    margin-left: 20px;*/
-/*    line-height: 300px;*/
-/*    vertical-align: middle;*/
-/*}*/
-
-/*.block_6_content p {*/
-/*    display: inline-block;*/
-/*    margin-left: 8px;*/
-/*}*/

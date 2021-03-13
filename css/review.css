@@ -28,31 +28,43 @@
 }
 
 .reviews-header img {
-	margin: 16px 8px;
+	margin: 15px 5px 0 8px;
 }
 
 .reviews-text {
-	width: 665px;
-}
-
-.reviews-text p {
-	float: top;
+	width: 630px;
+	margin: 0 auto;
+	position: relative;
 }
 
 .reviews-quote {
-	display: table;
+	position: absolute;
+	top: -17px;
+	left: -42px;
 	font-size: 96px;
 	font-family: "Georgia";
-	line-height: 0.65;
+	line-height: 1;
 	color: #f2f4f4;
 }
 
 .reviews-quoter {
 	display: table;
-	font-size: 25px;
-	font-weight: 700;
-	font-family: "Gentium Book Basic", sans-serif;
+	font-size: 26px;
+	font-weight: 400;
+	font-family: "Gentium Book Basic";
 	line-height: 45px;
+	word-spacing: 1.5px;
 	text-align: center;
+	color: #dde0df;
+	margin-top: 16px;
+	margin-bottom: 32px;
+}
+
+.reviews-cite {
+	display: table;
+	font-family: "Lato";
+	font-size: 17.9px;
+	font-style: normal;
+	margin: 0 auto;
 	color: #dde0df;
 }

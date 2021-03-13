@@ -8,6 +8,7 @@
     <!--Fonts includes-->
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <!--Styles includes-->
     <link rel="stylesheet" type="text/css" href="css/header.css">
@@ -117,69 +118,57 @@
     		</div>
     		<div class="reviews-text">
     			<p class="reviews-quote">“</p>
-    			<p class="reviews-quoter">If you've been to one of our restaurants. you've seen &#8211; and
+    			<blockquote class="reviews-quoter">If you've been to one of our restaurants, you've seen &#8211; and
     			tasted &#8211; what keeps our customers coming back for more.
     			Perfect materials and freshly baked food, delicious Lambda
-    			<span>cakes, muffins,</span> and gourmet coffees make us hard to resist!
-    			Stop in today and check us out!
-    			- food inc, New York</p>
+    			cakes, muffins, and gourmet coffees make us hard to resist!
+    			Stop in today and check us out!</blockquote>
+    			<cite class=reviews-cite>- food inc, New York</cite>
     		</div>
     	</div>
 	</div>
-</div>
+	<div class="reservation">
+    	<div class="reservation-content">
+        	<div class="reservation-images">
+            	<div><img src="content/images/block_6/6_1.png" alt="LOL"></div>
+            	<div><img src="content/images/block_6/6_2.png" alt="LOL"></div>
+        	</div>
 
-<div class="block_6">
-    <div class="block_6_content">
-        <div class="images">
-            <div><img src="content/images/block_6/6_1.png" alt="LOL"></div>
-            <div><img src="content/images/block_6/6_2.png" alt="LOL"></div>
-        </div>
-
-        <div class="main_content">
-            <h1 class="block_6_header">Just the right food</h1>
-            <img src="content/images/pattern-mask-promo.svg">
-
-
-            <p>If you've been to one of our restaurants, you've seen - and<br>
-                tasted - what keeps our customers coming back for more.<br>
-                Perfect materials and freshly baked food.<br>
-            </p>
-
-            <p>Delicious Lambda cakes, muffins, and gourmet coffees make<br>
-                us hard to resist! Stop in today and check us out! Perfect<br>
-                materials and freshly baked food.<br>
-            </p>
-
+        	<div class="reservation-main-content">
+            	<h1 class="reservation-header">Just the right food</h1>
+            	<img src="content/images/pattern-mask-gold.svg">
+            	<p class="reservation-text-top">If you've been to one of our restaurants, you've seen &#8211; and<br>
+                	tasted &#8211; what keeps our customers coming back for more.<br>
+                	Perfect materials and freshly baked food.<br></p>
+            	<p class="reservation-text-bottom">Delicious Lambda cakes, muffins, and gourmet coffees make<br>
+                	us hard to resist! Stop in today and check us out! Perfect<br>
+                	materials and freshly baked food.<br></p>
 <!--            TODO-->
-            <form method="post" action="" id="forma" name="">
-                <div class="left_input">
-                    <div>
-                        <h6>Name</h6>
-                        <input id="name" onkeyup="checkParams()" type="text" size="5" placeholder="your name*"
+            	<form method="post" action="" id="forma" name="">
+                	<div class="left_input">
+                    	<div>
+                        	<h6>Name</h6>
+                        	<input id="name" onkeyup="checkParams()" type="text" size="5" placeholder="your name*"
                                autocomplete="off"/><br>
-                        <h6>Date</h6>
-                        <input id="email" onkeyup="checkParams()" type="date" placeholder="date*"
+                        	<h6>Date</h6>
+                        	<input id="email" onkeyup="checkParams()" type="date" placeholder="date*"
                                autocomplete="off"/><br>
-                    </div>
-                    <div class="right_input">
-                        <h6>Email</h6>
-                        <input class="right_input" id="phone" onkeyup="checkParams()" type="tel"
+                    	</div>
+                    	<div class="right_input">
+                        	<h6>Email</h6>
+                        	<input class="right_input" id="phone" onkeyup="checkParams()" type="tel"
                                placeholder="your email*" autocomplete="off"/><br>
-                        <h6>Party number</h6>
-                        <input class="right_input" id="t" onkeyup="checkParams()" type="number" placeholder="party number*"
+                        	<h6>Party number</h6>
+                        	<input class="right_input" id="t" onkeyup="checkParams()" type="number" placeholder="party number*"
                                autocomplete="off"/><br>
-                    </div>
-
-                </div>
-                <input type="button" onkeyup="checkParams()" id="submit" value="Отправить" disabled>
-            </form>
-
-        </div>
-
-
-    </div>
+                    	</div>
+                	</div>
+                	<input class="reservation-button" type="button" onkeyup="checkParams()" id="submit" value="Book now!" disabled>
+            	</form>
+        	</div>
+    	</div>
+	</div>
 </div>
-
 
 <footer>
     <div class="footer-content">
