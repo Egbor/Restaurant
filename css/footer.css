@@ -10,16 +10,38 @@ footer {
     height: 218px;
     padding: 52px 215px 50px 215px;
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     text-align: center;
 }
 
 .column {
-    width: 320px;
-    height: 196px;
+    margin-top: 5px;
+}
+
+.column-about {
+    width: 370px;
+    height: 218px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+   /* justify-content: space-between;*/
+}
+
+.column-hours {
+    width: 230px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 101px;
+    /*justify-content: space-between;*/
+}
+
+.column-location {
+    width: 230px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 69px;
+    /*justify-content: space-between;*/
 }
 
 .column h6 {
@@ -36,40 +58,70 @@ footer {
 .column p {
     /*width: 370px;*/
     /*height: 136px;*/
-    font-size: 14px;
-    /*line-height: 24px;*/
+    font-size: 16px;
+    line-height: 24px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Open Sans", sans-serif;
     text-align: center;
-    margin: 0;
+    margin-top: 2px;
 }
 
 .column p b {
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 16.5px;
+}
+
+.column span {
+    font-weight: 700;
+}
+
+.column img {
+    width: 200px;
+    height: 51px;
+    display: block;
+    margin: 0 auto;
 }
 
 .column-content {
     height: 128px;
     display: flex;
+    margin-top: 5px;
     flex-direction: column;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
 
-.column img {
-    width: 170px;
-    height: 18px;
+.column-content img {
+    width: 200px;
+    height: 51px;
     display: block;
-    margin: auto;
+    margin: 15px auto;
 }
 
-.footer-icons i {
+.payment-icons {
+    margin-left: 7px; 
+    margin-top: 51px;
+}
+
+.payment-icons i {
+    margin: 0 4px;
+}
+
+.social-icons {
+    margin-left: 7px;
+    margin-top: 51px;
+}
+
+.social-icons i {
+    margin: 0 4px;
+}
+
+/*.footer-icons i {
     width: 15px;
     height: 15px;
     margin-right: 5px;
     margin-left: 5px;
-}
+}*/
 
 .my-bold-font {
     color: black;
