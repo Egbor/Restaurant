@@ -104,6 +104,7 @@ footer {
 }
 
 .payment-icons i {
+    color: white;
     margin: 0 4px;
 }
 
@@ -113,6 +114,7 @@ footer {
 }
 
 .social-icons i {
+    color: white;
     margin: 0 4px;
 }
 

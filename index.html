@@ -19,27 +19,14 @@
     <link rel="stylesheet" type="text/css" href="css/review.css">
     <link rel="stylesheet" type="text/css" href="css/block_6.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <!--Script includes-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/reservation.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
     <title>Lambda</title>
-
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script>
-        function checkParams() {
-            var name = $('#name').val();
-            var email = $('#email').val();
-            var phone = $('#phone').val();
-
-            if (name.length != 0 && email.length != 0 && phone.length != 0) {
-                $('#submit').removeAttr('disabled');
-            } else {
-                $('#submit').attr('disabled', 'disabled');
-            }
-        }
-    </script>
-
 
 </head>
 
@@ -47,9 +34,9 @@
 <div class="header">
     <div class="inner_header">
         <div class="social_icons">
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-youtube"></i>
-            <i class="fa fa-facebook-f"></i>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-facebook-f"></i></a>
         </div>
         <div class="navigation">
             <ul class="nav-menubar">
@@ -143,27 +130,33 @@
             	<p class="reservation-text-bottom">Delicious Lambda cakes, muffins, and gourmet coffees make<br>
                 	us hard to resist! Stop in today and check us out! Perfect<br>
                 	materials and freshly baked food.<br></p>
-<!--            TODO-->
             	<form method="post" action="" id="forma" name="">
                 	<div class="left_input">
                     	<div>
                         	<h6>Name</h6>
-                        	<input id="name" onkeyup="checkParams()" type="text" size="5" placeholder="your name*"
-                               autocomplete="off"/><br>
+                        	<input class="reservation-field" id="name" type="text" size="5" placeholder="your name *" autocomplete="off"/><br>
                         	<h6>Date</h6>
-                        	<input id="email" onkeyup="checkParams()" type="date" placeholder="date*"
-                               autocomplete="off"/><br>
+                        	<div class="date-wrapper">
+                        		<input class="reservation-field form-date" id="date" type="text" placeholder="date *" onfocus="(this.type='date')" onblur = "(this.type = 'text')" autocomplete="off"/><br>
+                        	</div>
                     	</div>
                     	<div class="right_input">
                         	<h6>Email</h6>
-                        	<input class="right_input" id="phone" onkeyup="checkParams()" type="tel"
-                               placeholder="your email*" autocomplete="off"/><br>
+                        	<input class="reservation-field" class="right_input" id="email" type="text" placeholder="your email *" autocomplete="off"/><br>
                         	<h6>Party number</h6>
-                        	<input class="right_input" id="t" onkeyup="checkParams()" type="number" placeholder="party number*"
-                               autocomplete="off"/><br>
+                        	<div class="combobox-wrapper">
+                        		<select class="reservation-field form-combobox" required>
+                        			<option value="" disabled selected>party number</option>
+                        			<option value="1">1</option>
+                        			<option value="2">2</option>
+                        			<option value="3">3</option>
+                        			<option value="4">4</option>
+                        			<option value="5">5</option>
+                        		</select>
+                        	</div>
                     	</div>
                 	</div>
-                	<input class="reservation-button" type="button" onkeyup="checkParams()" id="submit" value="Book now!" disabled>
+                	<input class="reservation-button form-button-disabled" type="button" id="submit" value="Book now!" disabled>
             	</form>
         	</div>
     	</div>
@@ -189,10 +182,10 @@
                     <b>Fri-Sun:</b> 7:00am-10:00pm
                 </p>
                 <div class="payment-icons">
-                	<i class="fa fa-cc-amex" aria-hidden="true"></i>
-                	<i class="fa fa-cc-paypal" aria-hidden="true"></i>
-                	<i class="fa fa-cc-visa" aria-hidden="true"></i>
-                	<i class="fa fa-cc-discover" aria-hidden="true"></i>
+                	<a href="#"><i class="fa fa-cc-amex" aria-hidden="true"></i></a>
+                	<a href="#"><i class="fa fa-cc-paypal" aria-hidden="true"></i></a>
+                	<a href="#"><i class="fa fa-cc-visa" aria-hidden="true"></i></a>
+                	<a href="#"><i class="fa fa-cc-discover" aria-hidden="true"></i></a>
             	</div>
             </div>
         </div>
@@ -205,10 +198,10 @@
                 </b>
                 </p>
                 <div class="social-icons">
-                	<i class="fa fa-facebook-f"></i>
-               		<i class="fa fa-youtube" aria-hidden="true"></i>
-                	<i class="fa fa-twitter"></i>
-                	<i class="fa fa-trello" aria-hidden="true"></i>
+                	<a href="#"><i class="fa fa-facebook-f"></i></a>
+               		<a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                	<a href="#"><i class="fa fa-twitter"></i></a>
+                	<a href="#"><i class="fa fa-trello" aria-hidden="true"></i></a>
             	</div>
             </div>
         </div>

@@ -2,7 +2,7 @@
 .reservation {
     width: 1600px;
     height: 710px;
-    background-image: url("../content/images/block_6/bgco.svg"), linear-gradient(-43deg, #d0d0d0a8 0%, #ffffff 100%);
+    background-image: url("../content/images/backgrounds/Reservations.svg"), linear-gradient(-43deg, #d0d0d059 0%, #ffffff 100%);
 }
 
 .reservation-content {
@@ -53,13 +53,13 @@
 }
 
 .reservation-main-content h6 {
-    font-family: "Yeseva One", sans-serif;
+    font-family: "Open Sans";
     text-align: left;
-    color: #c2a100;
-    font-size: 12px;
-    padding-bottom: 10px;
-    padding-top: 23px;
-    font-weight: bold;
+    color: #c9a131;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 6px;
+    padding-top: 22px;
 }
 
 .reservation-main-content p {
@@ -88,21 +88,28 @@
     word-spacing: 0;
 }
 
+.reservation-field {
+    width: 168px;
+    height: 34px;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid #e2e2e2;
+    padding: 0 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.reservation-field:focus {
+    outline: 0;
+    border: 1px solid #c89f2d;
+}
+
 .reservation-button {
     width: 200px;
     height: 36px;
     color: white;
-}
-
-input {
-    width: 196px;
-    height: 32px;
     font-size: 16px;
-    font-weight: 400;
-    font-style: italic;
-}
-
-input[type=button] {
     font-style: normal;
     text-align: center;
     margin-top: 24px;
@@ -111,8 +118,81 @@ input[type=button] {
     border: 1px solid #c89f2d;
 }
 
-input[type=button]:active {
-    border: 1px solid #c89f2d;
+.reservation-button:active {
+    background-color: rgba(176,135,19,0.9803921568627451);
+    border: 1px solid #B08713;
+}
+
+.reservation-button:focus {
+    outline: 0;
+}
+
+.form-button-disabled {
+    background-color: rgba(176,135,19,0.9803921568627451);
+    border: 1px solid #B08713;
+}
+
+select:required:invalid {
+    color: #7c7c7c;
+}
+
+option[value=""][disabled] {
+    display: none;
+}
+
+option {
+    color: #000;
+}
+
+.date-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.date-wrapper::after {
+    content: "\f073";
+    font: normal normal normal 13.5px/1 FontAwesome;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    opacity: 0.5;
+}
+
+.form-date::before {
+    visibility: hidden;
+}
+
+.form-date::-webkit-datetime-edit {
+    visibility: visible;
+}
+
+.form-date::-webkit-calendar-picker-indicator {
+    display: none
+}
+
+.form-combobox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.combobox-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.combobox-wrapper::after {
+    content: "\f107";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;;
+    right: 14.5px;
+    top: 12px;
+    opacity: 0.5;
+}
+
+.right_input select {
+    width: 200px;
+    height: 35px;
 }
 
 .left_input {
