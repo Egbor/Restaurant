@@ -1,4 +1,166 @@
+/*.menu-content {*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*    align-content: space-between;*/
+/*    flex-wrap: wrap;*/
+/*    height: 994px;*/
+/*    margin: 0 auto;*/
+/*    box-sizing: border-box;*/
+/*    padding: 100px 271px 90px 271px;*/
+/*}*/
+
+
 .menu {
-	width: 100%;
-	height: 994px;
+    position: relative;
+    width: 100%;
+    max-width: 1600px;
+    max-height: 994px;
+    margin: 0 auto;
+    background-image: url("../content/images/backgrounds/Menu.svg"), linear-gradient(135deg, #F5F5F5 50%, #ffffff 75%);
+}
+
+.menu__menu-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 994px;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 110px 72px 88px 67px;
+    box-sizing: border-box;
+}
+
+.table {
+    position: relative;
+    max-width: 430px;
+    padding: 0;
+    border-collapse: collapse; /* убирает двойные линии таблицы*/
+}
+
+.table__title {
+    margin-bottom: 68px;
+    text-align: center;
+    font-family: 'Yeseva one';
+    font-size: 36px;
+    line-height: 24px;
+    color: #d2a622;
+    white-space: nowrap;
+}
+
+.table__title::after {
+    position: absolute;
+    content: "";
+    width: 242px;
+    height: 25px;
+    top: 47px;
+    left: 103px;
+    /*background-image: url("/content/images/pattern-mask-white.svg");*/
+    background-repeat: no-repeat;
+}
+
+.table-row {
+    margin-left: 10px;
+    width: 430px;
+    height: 40px;
+    border-collapse: collapse;
+}
+
+.table__row--name-dish {
+    border-bottom: 1px solid #d6bb6e;
+}
+
+.table__row--dish-action {
+    border: 1px solid #d6bb6e;
+}
+
+.dish-name,
+.dish-price {
+    font-size: 24px;
+    font-family: "YesevaOne", serif;
+    font-weight: 700;
+    line-height: 1.143;
+    color: #d2a622;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 385px;
+}
+
+.dish-name {
+    text-align: left;
+    width: 375px;
+    letter-spacing: 0.3px;
+}
+
+.dish-price {
+    text-align: right;
+}
+
+.table-text {
+    max-width: 430px;
+    margin-bottom: 10px;
+    padding: 8.5px 0px 7px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c4c4c;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.table__row--no-action {
+    height: 17px;
+}
+
+.table__no-action {
+    visibility: hidden;
+    padding: 0;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.dish-type {
+    position: absolute;
+    width: 69px;
+    height: 22px;
+    align-content: center;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #fff;
+    background-color: #d6bb6e;
+}
+
+.first-special{
+    margin-top: 709px;
+    margin-left: 658px;
+}
+
+.second-special{
+    margin-top: 609px;
+    margin-left: 1258px;
+}
+
+.border-row{
+    position: absolute;
+    width: 455px;
+    height: 80px;
+    border: 1px solid #d6bb6e;
+}
+
+.first_border{
+    margin-top: 729px;
+    margin-left: 270px;
+}
+
+.second_border{
+    margin-top: 630px;
+    margin-left: 870px;
 }
